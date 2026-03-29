@@ -1,0 +1,41 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "RPI5 Debug Lesson",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build-rpi5/Examples/Lesson-${input:lessonNumber}/lesson_${input:lessonNumber}",
+      "cwd": "${workspaceFolder}",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/opt/homebrew/bin/gdb",
+      "miDebuggerServerAddress": "ecpi:2345",
+      "stopAtConnect": false,
+      "launchCompleteCommand": "exec-continue",
+      "preLaunchTask": "Prepare Debug",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "text": "-enable-pretty-printing"
+        },
+        {
+          "text": "set sysroot /Volumes/RPI_SYSROOT/sysroot"
+        },
+        {
+          "text": "set breakpoint pending on"
+        },
+        {
+          "text": "tbreak main"
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "lessonNumber",
+      "type": "promptString",
+      "description": "Enter lesson number in two-digit format",
+      "default": "01"
+    }
+  ]
+}

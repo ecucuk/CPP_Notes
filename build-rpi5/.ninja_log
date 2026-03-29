@@ -1,0 +1,19 @@
+# ninja log v7
+1	234	1774814753077790005	Examples/Lesson-01/CMakeFiles/lesson_01.dir/src/main.cpp.o	2560282afb95dda0
+234	282	1774814753311452147	Examples/Lesson-01/lesson_01	57ee808db5778a27
+14	192	1774816385396348814	Examples/Lesson-01/CMakeFiles/lesson_01.dir/src/main.cpp.o	2560282afb95dda0
+192	362	1774816385574140385	Examples/Lesson-01/lesson_01	57ee808db5778a27
+3	176	1774816712142980351	Examples/Lesson-01/CMakeFiles/lesson_01.dir/src/main.cpp.o	2560282afb95dda0
+176	315	1774816712315045577	Examples/Lesson-01/lesson_01	57ee808db5778a27
+2	355	1774816926022053599	Examples/Lesson-01/CMakeFiles/lesson_01.dir/src/main.cpp.o	2560282afb95dda0
+355	498	1774816926375663226	Examples/Lesson-01/lesson_01	57ee808db5778a27
+1	168	1774816964120717878	Examples/Lesson-01/CMakeFiles/lesson_01.dir/src/main.cpp.o	2560282afb95dda0
+168	313	1774816964287851037	Examples/Lesson-01/lesson_01	57ee808db5778a27
+2	161	1774817306689985371	Examples/Lesson-01/CMakeFiles/lesson_01.dir/src/main.cpp.o	2560282afb95dda0
+161	298	1774817306848736384	Examples/Lesson-01/lesson_01	57ee808db5778a27
+1	247	1774817488599432526	Examples/Lesson-01/CMakeFiles/lesson_01.dir/src/main.cpp.o	2560282afb95dda0
+247	398	1774817488845795648	Examples/Lesson-01/lesson_01	57ee808db5778a27
+1	177	1774817495100027241	Examples/Lesson-01/CMakeFiles/lesson_01.dir/src/main.cpp.o	2560282afb95dda0
+177	208	1774817495275693963	Examples/Lesson-01/lesson_01	57ee808db5778a27
+0	182	1774817518581128662	Examples/Lesson-01/CMakeFiles/lesson_01.dir/src/main.cpp.o	2560282afb95dda0
+182	218	1774817518762606511	Examples/Lesson-01/lesson_01	57ee808db5778a27

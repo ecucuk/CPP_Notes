@@ -1,0 +1,61 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Lesson",
+      "type": "shell",
+      "command": "cmake --build build-rpi5",
+      "group": "build"
+    },
+    {
+      "label": "Deploy Lesson",
+      "type": "shell",
+      "command": "./Scripts/deploy_rpi5.sh ${input:lessonNumber}"
+    },
+    {
+      "label": "Start Debug Server",
+      "type": "shell",
+      "command": "./Scripts/debug_rpi5.sh ${input:lessonNumber}",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": [
+          {
+            "regexp": ".*",
+            "file": 1,
+            "location": 1,
+            "message": 0
+          }
+        ],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*Starting gdbserver.*",
+          "endsPattern": ".*Listening on port 2345.*"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": false,
+        "clear": false
+      }
+    },
+    {
+      "label": "Prepare Debug",
+      "dependsOn": [
+        "Build Lesson",
+        "Deploy Lesson",
+        "Start Debug Server"
+      ],
+      "dependsOrder": "sequence"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "lessonNumber",
+      "type": "promptString",
+      "description": "Lesson number (01,02...)",
+      "default": "01"
+    }
+  ]
+}

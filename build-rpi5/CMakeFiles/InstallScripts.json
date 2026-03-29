@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/ergun.cucuk/Projects/Repos/CPP_Notes/build-rpi5/cmake_install.cmake",
+		"/Users/ergun.cucuk/Projects/Repos/CPP_Notes/build-rpi5/Examples/cmake_install.cmake",
+		"/Users/ergun.cucuk/Projects/Repos/CPP_Notes/build-rpi5/Examples/Lesson-01/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/ergun.cucuk/Projects/Repos/CPP_Notes/build-rpi5",
+  "command": "/usr/bin/clang++ --target=aarch64-linux-gnu --sysroot=/Volumes/RPI_SYSROOT/sysroot -I/Users/ergun.cucuk/Projects/Repos/CPP_Notes/Examples/Lesson-01/inc --target=aarch64-linux-gnu --sysroot=/Volumes/RPI_SYSROOT/sysroot -fuse-ld=lld -g -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -o Examples/Lesson-01/CMakeFiles/lesson_01.dir/src/main.cpp.o -c /Users/ergun.cucuk/Projects/Repos/CPP_Notes/Examples/Lesson-01/src/main.cpp",
+  "file": "/Users/ergun.cucuk/Projects/Repos/CPP_Notes/Examples/Lesson-01/src/main.cpp",
+  "output": "/Users/ergun.cucuk/Projects/Repos/CPP_Notes/build-rpi5/Examples/Lesson-01/CMakeFiles/lesson_01.dir/src/main.cpp.o"
+}
+]
